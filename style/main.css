@@ -1,7 +1,12 @@
 :root
 {
     --clr-dark: #070a13;
+    --clr-dark-low: rgba(7, 10, 19, 0.5);
+    --clr-dark-2: #18181b;
     --clr-light: #f1f5f9;
+    --clr-light-2: #a1a1aa;
+    --clr-light-3: #d4d4d8;
+    --clr-light-4: #848484;
     --clr-primary: #c86bfa;
     --clr-primary-dark: #2b0042;
     --clr-primary-light: #E4AFFF;
@@ -11,7 +16,12 @@
 
 .theme-light {
     --clr-dark: #f1f5f9;
+    --clr-dark-low: rgba(241, 245, 249, 0.5);
+    --clr-dark-2: #fff;
     --clr-light: #070a13;
+    --clr-light-2: #52525b;
+    --clr-light-3: #27272a;
+    --clr-light-4: #b6b6b6;
     --clr-primary: #c86bfa;
     --clr-primary-dark: #2b0042;
     --clr-primary-light: #E4AFFF;
@@ -94,6 +104,5 @@ button
 
 a
 {
-    color: var(--clr-secondary);
     text-decoration: none;
 }
