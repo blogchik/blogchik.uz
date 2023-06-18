@@ -17,7 +17,7 @@
 
 .theme-light {
     --clr-dark: #f1f5f9;
-    --clr-dark-primary: #18181b;
+    --clr-dark-primary: #fff;
     --clr-dark-low: rgba(241, 245, 249, 0.5);
     --clr-dark-2: #fff;
     --clr-light: #070a13;
