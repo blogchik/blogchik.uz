@@ -1,0 +1,102 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+.footer
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.footer .footer__content
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: var(--clr-dark-primary);
+    border-bottom-width: 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: var(--clr-light-4);
+}
+
+.footer .footer__content .footer__menu
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: transparent;
+    list-style: none;
+}
+
+.footer .footer__content .footer__menu .footer__menu_item
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--clr-light);
+    background-color: transparent;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer .footer__content .footer__menu .footer__menu_item:hover, .footer .footer__content .footer__menu .footer__menu_item:active, .footer .footer__content .footer__menu .footer__menu_item:focus
+{
+    color: var(--clr-primary);
+}
+
+.footer .footer__content .footer__menu .footer__menu_item.active
+{
+    color: var(--clr-primary);
+}
+
+.footer .footer__content .footer__menu .footer__menu_item a
+{
+    color: inherit;
+}
+
+.footer .footer__content .footer__logo img
+{
+    height: 50px;
+    width: 50px;
+}

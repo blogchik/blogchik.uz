@@ -1,6 +1,7 @@
 :root
 {
     --clr-dark: #070a13;
+    --clr-dark-primary: #18181b;
     --clr-dark-low: rgba(7, 10, 19, 0.5);
     --clr-dark-2: #18181b;
     --clr-light: #f1f5f9;
@@ -16,6 +17,7 @@
 
 .theme-light {
     --clr-dark: #f1f5f9;
+    --clr-dark-primary: #18181b;
     --clr-dark-low: rgba(241, 245, 249, 0.5);
     --clr-dark-2: #fff;
     --clr-light: #070a13;

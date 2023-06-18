@@ -144,7 +144,7 @@
     border-style: solid;
     border-color: transparent;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--clr-light);
     background-color: transparent;
     transition: 0.3s all ease-in-out;
@@ -319,7 +319,7 @@
         border-style: solid;
         border-color: transparent;
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 500;
         color: var(--clr-light);
         background-color: transparent;
         transition: 0.3s all ease-in-out;
