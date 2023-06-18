@@ -12,7 +12,7 @@
 
         <span class="header__hamburger" id="hamburger_toggle" onclick="hamburger_toggle()">
 
-            <i class="fi fi-rr-menu-burger"></i> Menu
+            Menu <i class="fi fi-rr-angle-small-down"></i>
 
         </span>
 
