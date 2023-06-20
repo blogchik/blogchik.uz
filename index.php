@@ -112,10 +112,6 @@ include "./src/web/header.php";
 
     <div class="sec-line">
 
-        <!-- <p class="marquee">
-        JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER | JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER | JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER
-        </p> -->
-
         <marquee class="marquee" direction="right">
         JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER | JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER | JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER
         </marquee>
