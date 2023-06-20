@@ -8,7 +8,7 @@
 
     </div>
 
-    <div class="header__side menu">
+    <div class="header__side">
 
         <span class="header__hamburger" id="hamburger_toggle" onclick="hamburger_toggle()">
 

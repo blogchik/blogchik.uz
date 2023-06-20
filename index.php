@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="./style/components/header.css">
     <link rel="stylesheet" href="./style/components/footer.css">
     <link rel="stylesheet" href="./style/components/hero.css">
+    <link rel="stylesheet" href="./style/components/updates.css">
 
 </head>
 <body>
@@ -115,6 +116,183 @@ include "./src/web/header.php";
         <marquee class="marquee" direction="right">
         JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER | JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER | JABBOROV ABDUROZIQ | BLOGCHIK | WEB DEVELOPER | UX/UI DESIGNER
         </marquee>
+
+    </div>
+
+    <div class="section updates">
+
+        <div class="side">
+
+            <div class="articles">
+
+                <div class="article">
+
+                    <p class="date">
+                        September 5, 2022
+                    </p>
+
+                    <p class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+
+                    <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim aut, nostrum itaque vel eveniet quasi ratione hic. Dolor eos cupiditate saepe delectus. Ad perspiciatis natus mollitia. Repudiandae ad voluptatum expedita?
+                    </p>
+
+                    <a href="#" class="action">Read article <i class="fi fi-rr-caret-right"></i></a>
+
+                </div>
+
+                <div class="article">
+
+                    <p class="date">
+                        September 5, 2022
+                    </p>
+
+                    <p class="title">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia exercitationem labore praesentium similique, quisquam, neque recusandae ex provident delectus eos ipsum maiores sint debitis commodi tenetur nisi accusamus rem? Repellat odio, sed unde obcaecati asperiores consequatur.
+                    </p>
+
+                    <a href="#" class="action">Read article <i class="fi fi-rr-caret-right"></i></a>
+
+                </div>
+
+                <div class="article">
+
+                    <p class="date">
+                        September 5, 2022
+                    </p>
+
+                    <p class="title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+
+                    <p class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim aut, nostrum itaque vel eveniet quasi ratione hic. Dolor eos cupiditate saepe delectus. Ad perspiciatis natus mollitia. Repudiandae ad voluptatum expedita?
+                    </p>
+
+                    <a href="#" class="action">Read article <i class="fi fi-rr-caret-right"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="side">
+
+            <div class="projects">
+
+                <p class="title">
+                    <i class="fi fi-rr-briefcase"></i> Latest projects
+                </p>
+
+                <div class="list">
+
+                    <div class="item">
+
+                        <div class="image">
+                        
+                            <img src="./assets/images/avatar.png" alt="">
+                        
+                        </div>
+
+                        <div class="text">
+
+                            <p class="title">
+                                Lorem, ipsum.
+                            </p>
+                            
+                            <p class="subtitle">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+
+                        <div class="image">
+                        
+                            <img src="./assets/images/avatar.png" alt="">
+                        
+                        </div>
+
+                        <div class="text">
+
+                            <p class="title">
+                                Lorem, ipsum.
+                            </p>
+                            
+                            <p class="subtitle">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+
+                        <div class="image">
+                        
+                            <img src="./assets/images/avatar.png" alt="">
+                        
+                        </div>
+
+                        <div class="text">
+
+                            <p class="title">
+                                Lorem, ipsum.
+                            </p>
+                            
+                            <p class="subtitle">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="actions">
+
+                    <a href="https://github.com/blogchik" class="action">Checkout GitHub <i class="fi fi-rr-arrow-small-down"></i></a>
+
+                </div>
+
+            </div>
+
+            <div class="mailer">
+
+                <p class="title">
+
+                    <i class="fi fi-rr-envelope"></i> Stay up to date
+
+                </p>
+
+                <p class="subtitle">
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ex.
+
+                </p>
+
+                <form action="#" method="post">
+
+                    <input type="email" name="email" id="email" placeholder="Email address" require>
+                    <button type="submit">Join</button>
+
+                </form>
+
+            </div>
+
+        </div>
 
     </div>
 
