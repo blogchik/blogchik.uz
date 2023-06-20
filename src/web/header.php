@@ -26,6 +26,12 @@
 
             <li class="header__menu_item">
 
+                <a href="./articles">Artices</a>
+
+            </li>
+
+            <li class="header__menu_item">
+
                 <a href="./projects">Projects</a>
 
             </li>
@@ -82,6 +88,12 @@
             <li class="hamburger_menu__menu_item">
 
                 <a href="./about" onclick="hamburger_toggle()">About</a>
+
+            </li>
+
+            <li class="hamburger_menu__menu_item">
+
+                <a href="./articles" onclick="hamburger_toggle()">Articles</a>
 
             </li>
 

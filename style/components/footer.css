@@ -93,6 +93,7 @@
 
 .footer .footer__content .footer__menu .footer__menu_item a
 {
+    text-decoration: none;
     color: inherit;
 }
 

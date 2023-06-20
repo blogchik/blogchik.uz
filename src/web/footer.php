@@ -14,6 +14,12 @@
 
                 <li class="footer__menu_item">
 
+                    <a href="./articles">Articles</a>
+
+                </li>
+
+                <li class="footer__menu_item">
+
                     <a href="./projects">Projects</a>
 
                 </li>

@@ -1,0 +1,138 @@
+.hero
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero .side
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: unset;
+    justify-content: unset;
+    width: 95%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero .side .avatar
+{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--clr-light-4);
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.3s all ease-in-out;
+}
+
+.hero .side .avatar img
+{
+    height: 100%;
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+.hero .side .avatar:hover  img
+{
+    transform: scale(1.1);
+}
+
+.hero .side .title
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--clr-light);
+}
+
+.hero .side .title span
+{
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    width: auto;
+}
+
+.hero .side .title .flag
+{
+    height: 38px;
+    margin-right: 10px;
+}
+
+.hero .side .description
+{
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    color: var(--clr-light-2);
+}
+
+.hero .side .description span
+{
+    font-weight: 600;
+    color: var(--clr-primary);
+}
+
+.hero .side .socials
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero .side .socials .social
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--clr-primary);
+    border: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s all ease-in-out;
+}
+
+.hero .side .socials .social:hover, .hero .side .socials .social:active, .hero .side .socials .social:focus
+{
+    color: var(--clr-primary-light);
+    border-bottom: 1px solid var(--clr-primary-light);
+}
+
+@media (min-width: 720px)
+{
+
+    .hero
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 40px;
+    }
+
+    .hero .side
+    {
+        width: 75%;
+        height: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+}
