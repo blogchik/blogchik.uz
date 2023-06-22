@@ -263,7 +263,7 @@ include "./src/web/header.php";
 
                 <div class="actions">
 
-                    <a href="https://github.com/blogchik" class="action">Checkout GitHub <i class="fi fi-rr-arrow-small-down"></i></a>
+                    <a href="https://github.com/blogchik" target="_blank" class="action">Checkout GitHub <i class="fi fi-rr-arrow-small-down"></i></a>
 
                 </div>
 
