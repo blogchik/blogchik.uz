@@ -1,4 +1,883 @@
-.updates .side .projects .image img
+.updates
 {
-    height: 40px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+}
+
+.updates .side
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.5;
+    width: auto;
+    height: 100%;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.updates .side.h
+{
+    flex: 0.5;
+}
+
+.updates .side .articles
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+
+.updates .side .articles .article
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s all ease-in-out;
+}
+
+.updates .side .articles .article:hover
+{
+    background-color: var(--clr-light-5);
+    border-color: var(--clr-light-4);
+}
+
+.updates .side .articles .article .date
+{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--clr-light-4);
+    border: none;
+    border-left: 1px solid var(--clr-light-4);
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.updates .side .articles .article .title
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--clr-light);
+    text-decoration: none;
+    max-width: 100%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+.updates .side .articles .article .description
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--clr-light-4);
+    max-width: 100%;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.updates .side .articles .article .action
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+.updates .side .articles .article .action i
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+}
+
+.updates .side .projects
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--clr-light-4);
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 20px;
+    padding-top: 25px;
+    gap: 15px;
+}
+
+.updates .side .projects .title
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--clr-light);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.updates .side .projects .title i
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    color: var(--clr-light-4);
+}
+
+.updates .side .projects .actions
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.updates .side .projects .actions a
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--clr-light);
+    background-color: var(--clr-light-5);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s all ease-in-out;
+}
+
+.updates .side .projects .actions a:hover, .updates .side .projects .actions a:active, .updates .side .projects .actions a:focus
+{
+    color: var(--clr-light);
+    background-color: var(--clr-primary);
+}
+
+.updates .side .projects .list
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.updates .side .projects .list .item
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: unset;
+    justify-content: unset;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: transparent;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.updates .side .projects .list .item:hover, .updates .side .projects .list .item:active, .updates .side .projects .list .item:focus
+{
+    border-color: var(--clr-light-4);
+    background-color: var(--clr-light-5);
+}
+
+.updates .side .projects .list .item .image
+{
+    display: block;
+    position: relative;
+    height: 44px;
+    width: 44px;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.updates .side .projects .list .item .image img
+{
+    height: 100%;
+}
+
+.updates .side .projects .list .item .text
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    width: auto;
+    height: auto;
+    gap: 5px;
+}
+
+.updates .side .projects .list .item .text .title
+{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--clr-light);
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+}
+
+.updates .side .projects .list .item .text .subtitle
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    color: var(--clr-light-4);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.updates .side .mailer
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--clr-light-4);
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 6px;
+}
+
+.updates .side .mailer .title
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--clr-light);
+    padding: 0;
+    margin: 0;
+}
+
+.updates .side .mailer .title i
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    color: var(--clr-light-4);
+}
+
+.updates .side .mailer .subtitle
+{
+    width: 100%;
+    text-align: left;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--clr-light-4);
+    padding: 0;
+    margin: 0;
+}
+
+.updates .side .mailer form
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.updates .side .mailer form input
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    text-overflow: ellipsis;
+    line-height: normal;
+    color: var(--clr-light);
+    background-color: var(--clr-light-5);
+    border: 1px solid var(--clr-light-4);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0;
+    flex: 0.8;
+    overflow: hidden;
+    outline: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.updates .side .mailer form input:hover, .updates .side .mailer form input:active, .updates .side .mailer form input:focus
+{
+    border-color: var(--clr-primary);
+}
+
+.updates .side .mailer form button
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--clr-light);
+    background-color: var(--clr-light-5);
+    border: 1px solid var(--clr-light-4);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0;
+    flex: 0.2;
+    outline: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.updates .side .mailer form button:hover, .updates .side .mailer form button:active, .updates .side .mailer form button:focus
+{
+    color: var(--clr-primary);
+}
+
+@media (min-width: 720px)
+{
+
+    .updates
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: unset;
+        justify-content: space-between;
+    }
+    
+    .updates .side
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex: 0.5;
+        width: auto;
+        height: 100%;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 1024px)
+{
+
+    .updates
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: unset;
+        justify-content: space-between;
+    }
+    
+    .updates .side
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex: 0.5;
+        width: auto;
+        height: 100%;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .updates .side.h
+    {
+        flex: 0.5;
+    }
+    
+    .updates .side .articles
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .updates .side .articles .article
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .updates .side .articles .article:hover
+    {
+        background-color: var(--clr-light-5);
+        border-color: var(--clr-light-4);
+    }
+    
+    .updates .side .articles .article .date
+    {
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: none;
+        color: var(--clr-light-4);
+        border: none;
+        border-left: 1px solid var(--clr-light-4);
+        padding: 0;
+        margin: 0;
+        padding-left: 10px;
+    }
+    
+    .updates .side .articles .article .title
+    {
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--clr-light);
+        text-decoration: none;
+        max-width: 100%;
+        height: max-content;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .updates .side .articles .article .description
+    {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--clr-light-4);
+        max-width: 100%;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+    
+    .updates .side .articles .article .action
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: max-content;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--clr-primary);
+        text-decoration: none;
+    }
+    
+    .updates .side .articles .article .action i
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 6px;
+    }
+    
+    .updates .side .projects
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--clr-light-4);
+        border-radius: 15px;
+        background-color: transparent;
+        padding: 20px;
+        padding-top: 25px;
+        gap: 15px;
+    }
+    
+    .updates .side .projects .title
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: max-content;
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--clr-light);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .updates .side .projects .title i
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 6px;
+        color: var(--clr-light-4);
+    }
+    
+    .updates .side .projects .actions
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .updates .side .projects .actions a
+    {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--clr-light);
+        background-color: var(--clr-light-5);
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 12px;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .updates .side .projects .actions a:hover, .updates .side .projects .actions a:active, .updates .side .projects .actions a:focus
+    {
+        color: var(--clr-light);
+        background-color: var(--clr-primary);
+    }
+    
+    .updates .side .projects .list
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+    
+    .updates .side .projects .list .item
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: unset;
+        justify-content: unset;
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        background-color: transparent;
+        padding: 10px;
+        text-decoration: none;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .updates .side .projects .list .item:hover, .updates .side .projects .list .item:active, .updates .side .projects .list .item:focus
+    {
+        border-color: var(--clr-light-4);
+        background-color: var(--clr-light-5);
+    }
+    
+    .updates .side .projects .list .item .image
+    {
+        display: block;
+        position: relative;
+        height: 44px;
+        width: 44px;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        border: none;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .updates .side .projects .list .item .image img
+    {
+        height: 100%;
+    }
+    
+    .updates .side .projects .list .item .text
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+        width: auto;
+        height: auto;
+        gap: 5px;
+    }
+    
+    .updates .side .projects .list .item .text .title
+    {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        color: var(--clr-light);
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-overflow: ellipsis;
+    }
+    
+    .updates .side .projects .list .item .text .subtitle
+    {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1;
+        color: var(--clr-light-4);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+    
+    .updates .side .mailer
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--clr-light-4);
+        border-radius: 15px;
+        background-color: transparent;
+        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 6px;
+    }
+    
+    .updates .side .mailer .title
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: max-content;
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--clr-light);
+        padding: 0;
+        margin: 0;
+    }
+    
+    .updates .side .mailer .title i
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 6px;
+        color: var(--clr-light-4);
+    }
+    
+    .updates .side .mailer .subtitle
+    {
+        width: 100%;
+        text-align: left;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        font-weight: 300;
+        color: var(--clr-light-4);
+        padding: 0;
+        margin: 0;
+    }
+    
+    .updates .side .mailer form
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    .updates .side .mailer form input
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        text-overflow: ellipsis;
+        line-height: normal;
+        color: var(--clr-light);
+        background-color: var(--clr-light-5);
+        border: 1px solid var(--clr-light-4);
+        border-radius: 8px;
+        padding: 8px;
+        margin: 0;
+        flex: 0.8;
+        overflow: hidden;
+        outline: none;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .updates .side .mailer form input:hover, .updates .side .mailer form input:active, .updates .side .mailer form input:focus
+    {
+        border-color: var(--clr-primary);
+    }
+    
+    .updates .side .mailer form button
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--clr-light);
+        background-color: var(--clr-light-5);
+        border: 1px solid var(--clr-light-4);
+        border-radius: 8px;
+        padding: 8px;
+        margin: 0;
+        flex: 0.2;
+        outline: none;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .updates .side .mailer form button:hover, .updates .side .mailer form button:active, .updates .side .mailer form button:focus
+    {
+        color: var(--clr-primary);
+    }
+
 }

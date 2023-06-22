@@ -121,11 +121,11 @@ include "./src/web/header.php";
 
     <div class="section updates">
 
-        <div class="side">
+        <div class="side h">
 
             <div class="articles">
 
-                <div class="article">
+                <a class="article" href="#">
 
                     <p class="date">
                         September 5, 2022
@@ -139,11 +139,11 @@ include "./src/web/header.php";
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim aut, nostrum itaque vel eveniet quasi ratione hic. Dolor eos cupiditate saepe delectus. Ad perspiciatis natus mollitia. Repudiandae ad voluptatum expedita?
                     </p>
 
-                    <a href="#" class="action">Read article <i class="fi fi-rr-caret-right"></i></a>
+                    <p class="action">Read article <i class="fi fi-rr-caret-right"></i></p>
 
-                </div>
+                </a>
 
-                <div class="article">
+                <a class="article" href="#">
 
                     <p class="date">
                         September 5, 2022
@@ -157,11 +157,11 @@ include "./src/web/header.php";
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia exercitationem labore praesentium similique, quisquam, neque recusandae ex provident delectus eos ipsum maiores sint debitis commodi tenetur nisi accusamus rem? Repellat odio, sed unde obcaecati asperiores consequatur.
                     </p>
 
-                    <a href="#" class="action">Read article <i class="fi fi-rr-caret-right"></i></a>
+                    <p class="action">Read article <i class="fi fi-rr-caret-right"></i></p>
 
-                </div>
+                </a>
 
-                <div class="article">
+                <a class="article" href="#">
 
                     <p class="date">
                         September 5, 2022
@@ -175,9 +175,9 @@ include "./src/web/header.php";
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim aut, nostrum itaque vel eveniet quasi ratione hic. Dolor eos cupiditate saepe delectus. Ad perspiciatis natus mollitia. Repudiandae ad voluptatum expedita?
                     </p>
 
-                    <a href="#" class="action">Read article <i class="fi fi-rr-caret-right"></i></a>
+                    <p class="action">Read article <i class="fi fi-rr-caret-right"></i></p>
 
-                </div>
+                </a>
 
             </div>
 
@@ -193,7 +193,7 @@ include "./src/web/header.php";
 
                 <div class="list">
 
-                    <div class="item">
+                    <a class="item" href="#">
 
                         <div class="image">
                         
@@ -213,31 +213,9 @@ include "./src/web/header.php";
                         
                         </div>
 
-                    </div>
+                    </a>
 
-                    <div class="item">
-
-                        <div class="image">
-                        
-                            <img src="./assets/images/avatar.png" alt="">
-                        
-                        </div>
-
-                        <div class="text">
-
-                            <p class="title">
-                                Lorem, ipsum.
-                            </p>
-                            
-                            <p class="subtitle">
-                                Lorem ipsum dolor sit amet.
-                            </p>
-                        
-                        </div>
-
-                    </div>
-
-                    <div class="item">
+                    <a class="item" href="#">
 
                         <div class="image">
                         
@@ -257,7 +235,29 @@ include "./src/web/header.php";
                         
                         </div>
 
-                    </div>
+                    </a>
+
+                    <a class="item" href="#">
+
+                        <div class="image">
+                        
+                            <img src="./assets/images/avatar.png" alt="">
+                        
+                        </div>
+
+                        <div class="text">
+
+                            <p class="title">
+                                Lorem, ipsum.
+                            </p>
+                            
+                            <p class="subtitle">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        
+                        </div>
+
+                    </a>
 
                 </div>
 
