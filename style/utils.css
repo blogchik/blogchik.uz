@@ -39,12 +39,62 @@
     justify-content: center;
     min-height: calc(100vh - 80px);
     height: auto;
-    background-color: var(--clr-dark-primary);
+    background-color: var(--clr-dark-primary-low);
+    backdrop-filter: blur(6px);
     padding: 20px;
     margin: 0;
     border-left: 0px solid var(--clr-light-4);
     border-right: 0px solid var(--clr-light-4);
     border-top: 1px solid var(--clr-light-4);
+    z-index: 2;
+}
+
+.lightings
+{
+    display: inline-flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: max-content;
+    height: max-content;
+    content: "";
+    overflow: hidden;
+    z-index: 1;
+}
+
+.lightings .lighting
+{
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    content: "";
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lightings .lighting.position-1
+{
+    top: 100px;
+    left: 25px;
+}
+
+.lightings .lighting.position-2
+{
+    top: 500px;
+    left: 700px;
+    width: 50%;
+    height: 50%;
+}
+
+.lightings .lighting.position-3
+{
+    bottom: 0;
+    left: 45px;
 }
 
 @media (min-width: 720px)
@@ -73,7 +123,8 @@
         justify-content: center;
         min-height: calc(100vh - 80px);
         height: auto;
-        background-color: var(--clr-dark-primary);
+        background-color: var(--clr-dark-primary-low);
+        backdrop-filter: blur(6px);
         padding: 20px;
         margin: 0;
         border-left: 1px solid var(--clr-light-4);
@@ -109,7 +160,8 @@
         justify-content: center;
         min-height: calc(100vh - 80px);
         height: auto;
-        background-color: var(--clr-dark-primary);
+        background-color: var(--clr-dark-primary-low);
+        backdrop-filter: blur(6px);
         padding: 20px;
         margin: 0;
         border-left: 1px solid var(--clr-light-4);
