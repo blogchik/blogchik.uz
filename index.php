@@ -56,14 +56,6 @@ include "./src/web/header.php";
 
 <div class="container">
 
-    <div class="lightings">
-
-        <i class="lighting position-1" style="background-image: url('./assets/noise/blue.png')"></i>
-        <i class="lighting position-2" style="background-image: url('./assets/noise/purple.png')"></i>
-        <i class="lighting position-3" style="background-image: url('./assets/noise/red.png')"></i>
-
-    </div>
-
     <div class="section hero">
 
         <div class="side">
