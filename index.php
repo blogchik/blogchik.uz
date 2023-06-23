@@ -1,25 +1,21 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta property=”og:type” content=”website” />
-    <meta property="og:title" content="The personal website of Jabborov Abduroziq" />
-    <meta property=”og:description” content=”Portfolio, Resume, Gallery and etc.” />
-    <meta property=”og:image” content=”https://blogchik.uz/assets/images/ogimage.png” />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1280" />
-    <meta property="og:image:height" content="720" />
-    <meta property="og:image:alt" content="Cover Image" />
-    <meta property=”og:url” content=”https://blogchik.uz” />
+    <meta property=”og:type” content="website">
+    <meta property="og:title" content="The personal website of Jabborov Abduroziq">
+    <meta property=”og:description” content="Portfolio, Resume, Gallery and etc.">
+    <meta property=”og:image” content="https://blogchik.uz/assets/images/ogimage.png">
+    <meta property=”og:url” content="https://blogchik.uz">
 
-    <meta name=”twitter:card” content=”summary” />
-    <meta name=”twitter:title” content=”The personal website of Jabborov Abduroziq” />
-    <meta name=”twitter:description” content=”Portfolio, Resume, Gallery and etc.” />
-    <meta name=”twitter:image” content=”https://blogchik.uz/assets/images/ogimage.png” />
-    <meta name=”twitter:url” content=”https://blogchik.uz” />
+    <meta name=”twitter:card” content="summary" />
+    <meta name=”twitter:title” content="The personal website of Jabborov Abduroziq">
+    <meta name=”twitter:description” content="Portfolio, Resume, Gallery and etc.">
+    <meta name=”twitter:image” content="https://blogchik.uz/assets/images/ogimage.png">
+    <meta name=”twitter:url” content="https://blogchik.uz">
 
     <title>Jabborov Abduroziq - Personal Website</title>
 
