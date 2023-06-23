@@ -44,6 +44,7 @@
     <link rel="stylesheet" href="./style/components/footer.css">
     <link rel="stylesheet" href="./style/components/hero.css">
     <link rel="stylesheet" href="./style/components/updates.css">
+    <link rel="stylesheet" href="./style/components/lightings.css">
 
 </head>
 <body>
